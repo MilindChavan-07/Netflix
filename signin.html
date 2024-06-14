@@ -1,94 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="icon" href="neticon.png">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-            background-image: url(loginbg.jpg);
-            size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-        div{
-            height: 400px;
-            width: 300px;
-            border-radius: 0px 20px;
-            border: solid 1px black;
-            background-color:rgba(255, 255, 255,0.5);
-            margin-top: 70px;
-            margin-left: 300px;
-        }
-        img{
-            height: 100px;
-            width:100px;
-            margin-left: 100px;
-            margin-top: 10px;
-            opacity: 0.9;
-        }
-        #user{
-            padding: 10px;
-            margin-top: 25px;
-            margin-left: 35px;
-            width: 225px;
-            height: 20px;
-            /*border: solid 2px rgb(125, 23, 184);*/
-            border-left-style: none;
-            border-top-style: none;
-            border-right-style: none;
-            border-bottom: solid 3px rgb(218, 130, 238);
-            border-radius: 5px 0px;
-            background-color: transparent;
-        }
-        /* Basic Button Styles */
-#button {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  color: #fff;
-  background-color: #d400ff; /* Change to your preferred color */
-  margin-left: 105px;
-  margin-top: 40px;
-}
-
-/* Button Hover Effect */
-#button:hover {
-  background-color: #e856c9; /* Change to your preferred hover color */
-}
-
-/* Button Active State */
-#button:active {
-  background-color: #e5117b; /* Change to your preferred active color */
-}
-
-
-
-    h2{
-     margin-left: 120px;
-     margin-top: -5px;
-     margin-bottom: 5px;
-     color: rgba(179, 14, 176, 0.874);
-    }
-
-
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix/signin.in</title>
 </head>
 <body>
-    <div>
-        <form action="#" method="get">
-        <img src="user.png" alt="user">
-        <h2>Login</h3>
-        <input type="text" id="user" placeholder="username/email/phone number">
-        <input type="password" id="user" placeholder="password">
-        <input type="submit" id="button" value="submit">
-    </form>
+    <div class="img">
+    <img src="OIP.png" alt="Netflix">
+</div>
+    <div class="login-page">
+        <form>
+        <h1>Sign In</h1>
+        <div class="login-info">
+        <input type="text" id="user" required>
+        <label for="" id="username">Email or mobile number </label>
+        <input type="password" id="pass" required>        <label for="" id="password">Password </label>
+        </div>
+        <div>
+        <input type="submit" id="btn" value="Sign In">  
+        </div>
+        <p>OR</p>
+            <button>
+                <a href="#"> Use Sign In Code</a>
+            </button>
+       <a href="#" id="fp">Forgot password ? </a>
+       <label  id="rem"><input type="checkbox" name=""> Remember me </label>
+       <p id="ntn">New to Netflix? <b><a href="netflix.html" >sign up now</a></b>.</p>
+    
     </div>
+        
+    
+</form>
 </body>
 </html>
