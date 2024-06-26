@@ -27,26 +27,41 @@ h2{
 }
 
 body{
-    background-image: url(netflix.jpg);
+    display: flex;
+    background-color: black;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+
+}
+
+.module1{
+    background-image: url(bkg.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 .login-page{
-    height: 660px;
-    width: 440px;
+    height: 741px;
+    width: 450px;
     background-color: rgba(11, 11, 11,0.7);
     margin-top: 90px;
-    margin-left: 550px;
+    margin-left: 500px;
+    margin-right: 500;
     border-radius: 5px;
     border: solid 1px black;
 }
 .login-info{
     position: relative;
 }
+
+.other{
+    background-color: black;
+}
 #user{
     width: 300px;
-    height: 50px;
+    height: 45px;
     margin-left: 50px;
     margin-bottom: 15px;
     margin-top: 5px;
@@ -54,19 +69,19 @@ body{
     background-color: rgba(33, 31, 31, 0.4);
     border-radius: 5px;
     transition: 0.4s;
-    border: solid 2px black;
+    border: solid 0.5px rgb(88, 84, 84);
     padding-top: 10px;
 }
 #pass{
     width: 300px;
-    height: 50px;
+    height: 45px;
     margin-left: 50px;
     margin-bottom: 25px;
     padding-left: 25px;
     background-color: rgba(33, 31, 31, 0.4);
     border-radius: 5px;
     transition: 0.4s;
-    border: solid 2px black;
+    border: solid 0.5px rgb(88, 84, 84);
     padding-top: 10px;
 }
 
@@ -77,21 +92,21 @@ label{
 #username{
     position: absolute;
     left: 80px;
-    top: 25px;
+    top: 22px;
     transition: 0.3s;
     pointer-events: none;
-    color: rgba(138, 138, 138, 0.9);
-    font-weight: 500;
+    color: rgba(186, 178, 178, 0.9);
+    font-weight: 400;
 }
 
 #password{
     position: absolute;
     left: 80px;
-    top: 105px;
+    top: 95px;
     transition: 0.3s;
     pointer-events: none;
-    color: rgba(138, 138, 138, 0.9);
-    font-weight: bolder;
+    color:rgba(186, 178, 178, 0.9);
+    font-weight: 400;
 }
 P{
     margin-left: 40PX;
